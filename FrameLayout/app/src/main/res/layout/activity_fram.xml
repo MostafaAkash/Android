@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FramActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cat_image"
+        android:src="@drawable/catimage"
+        android:onClick="onClickEvent"
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dog_image"
+        android:src="@drawable/dogimage"
+        android:onClick="onClickEvent"
+        android:visibility="gone"
+
+        ></ImageView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rabbitimage"
+        android:src="@drawable/rabbitimage"
+        android:visibility="gone"
+        android:onClick="onClickEvent"
+        ></ImageView>
+
+
+</FrameLayout>

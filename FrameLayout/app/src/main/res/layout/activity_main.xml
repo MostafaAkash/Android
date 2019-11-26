@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_button_main_ac"
+        android:text="Start Frame Activity"
+        android:textAllCaps="false"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_button_main_ac"
+        android:text="Start Check Box Activity"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        ></Button>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/first_frag_id_main_ac"
+        android:name="com.example.framelayoutandfragment.FragmentFirst"
+        android:layout_weight="1"
+        ></fragment>
+
+
+   <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/ral_lay_main_ac"
+        android:layout_marginTop="20dp"
+
+        ></RelativeLayout>-->
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/second_frag_id_main_ac"
+        android:name="com.example.framelayoutandfragment.FragmentSecond"
+        android:layout_weight="1"
+        ></fragment>
+
+
+</LinearLayout>

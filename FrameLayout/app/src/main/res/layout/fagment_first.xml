@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_layout_fragment_first"
+    android:background="@android:color/holo_orange_dark"
+    >
+
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/text_in_fragment_ac"
+        android:background="@android:color/holo_green_light"
+        android:text="This is Fragment"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        ></TextView>
+-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_fragment_first_ac"
+        android:textColor="#000"
+        android:textAllCaps="false"
+        android:text="Click Me"
+        android:layout_centerInParent="true"
+        ></Button>
+
+</RelativeLayout>

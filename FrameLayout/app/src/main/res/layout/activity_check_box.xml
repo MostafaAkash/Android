@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/check_box_latout"
+    tools:context=".CheckBoxActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_check_ac"
+        android:text="I want coffee with"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        ></TextView>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sugar"
+        android:id="@+id/checkbox_chec_ac"
+        android:layout_below="@+id/textView_check_ac"
+        android:layout_alignLeft="@+id/textView_check_ac"
+        android:layout_marginTop="10dp"
+        tools:ignore="UnknownId">
+
+    </CheckBox>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Night Mode"
+        android:textOn="Day Mode"
+        android:layout_below="@+id/checkbox_chec_ac"
+        android:layout_alignLeft="@+id/checkbox_chec_ac"
+        android:layout_marginTop="30dp"
+        />
+
+</RelativeLayout>

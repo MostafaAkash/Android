@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       >
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_margin="10dp"
+          android:padding="5dp"
+          >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/name_text_main_ac"
+             android:text="Name: "
+             ></TextView>
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/name_edit_id_main_ac"
+             android:layout_toRightOf="@+id/name_text_main_ac"
+             android:layout_alignBaseline="@+id/name_text_main_ac"
+             android:inputType="text"
+             ></EditText>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Country: "
+             android:id="@+id/coutry_textView_main_ac"
+             android:layout_below="@+id/name_text_main_ac"
+             android:layout_marginTop="20dp"
+             ></TextView>
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+
+             android:id="@+id/country_edit_main_ac"
+             android:layout_below="@+id/name_edit_id_main_ac"
+             android:layout_toRightOf="@+id/coutry_textView_main_ac"
+             android:layout_alignBaseline="@+id/coutry_textView_main_ac"
+             android:inputType="text"
+             android:imeOptions="actionDone"
+
+             ></EditText>
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Submit"
+             android:layout_below="@+id/coutry_textView_main_ac"
+             android:layout_alignParentRight="true"
+             android:id="@+id/submit_id_main_ac"
+             android:layout_marginTop="15dp"
+
+             ></Button>
+
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/delete_Button_id_main_ac"
+              android:text="Delete"
+              android:layout_below="@+id/coutry_textView_main_ac"
+              android:layout_alignBaseline="@+id/submit_id_main_ac"
+              ></Button>
+
+      </RelativeLayout>
+
+   </LinearLayout>
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="2"
+       android:id="@+id/recycleviewid_main_ac"
+       android:scrollbars="vertical"
+       android:padding="5dp"
+       ></androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

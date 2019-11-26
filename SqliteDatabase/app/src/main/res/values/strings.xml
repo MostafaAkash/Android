@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SqliteDatabase</string>
+    <string name="show_data">Show All Data</string>
+    <string name="from_age">From Age:</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete</string>
+</resources>

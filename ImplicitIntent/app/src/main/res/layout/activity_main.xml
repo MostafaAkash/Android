@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        tools:context=".MainActivity"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Google Translate"
+            android:id="@+id/open_map_id_main_ac"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Mail"
+            android:id="@+id/send_mail_id_main_ac"
+            android:layout_marginTop="30dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_sms"
+            android:id="@+id/sendSmsBtnMain"
+            android:layout_marginTop="30dp"
+            />
+
+
+
+    </LinearLayout>
+
+</layout>
+
+
+

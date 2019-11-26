@@ -1,0 +1,19 @@
+{
+  "address": {
+    "city": "Dhaka",
+    "country": "Bangladesh"
+  },
+  "age": 24,
+  "isMarried": false,
+  "members": [
+    {
+      "age": 50,
+      "memberType": "Father"
+    },
+    {
+      "age": 22,
+      "memberType": "Daughter"
+    }
+  ],
+  "first_name": "Golam Mostafa"
+}
